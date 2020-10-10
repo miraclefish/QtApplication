@@ -10,7 +10,7 @@ def run(self):
        self.sleep(1)
        if sec == 5:
            break;
-
+ 
 QLCDNumber
 
 

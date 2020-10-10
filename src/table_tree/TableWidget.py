@@ -40,8 +40,8 @@ class TableWidgetDemo(QWidget):
         # 禁止编辑
         tablewidget.setEditTriggers(QAbstractItemView.NoEditTriggers)
 
-        # 整行选择
-        tablewidget.setSelectionBehavior(QAbstractItemView.SelectRows)
+        # 整列选择
+        tablewidget.setSelectionBehavior(QAbstractItemView.SelectColumns)
         # 调整列和行
         tablewidget.resizeColumnsToContents()
         tablewidget.resizeRowsToContents()

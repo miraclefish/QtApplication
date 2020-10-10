@@ -56,7 +56,7 @@ class ClipBoard(QDialog):
 
     def copyImage(self):
         clipboard = QApplication.clipboard()
-        clipboard.setPixmap(QPixmap('./images/book.png'))
+        clipboard.setPixmap(QPixmap('src/drapclip/images/book.png'))
 
     def pasteImage(self):
         clipboard = QApplication.clipboard()

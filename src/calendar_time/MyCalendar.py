@@ -14,6 +14,7 @@ class MyCalendar(QWidget):
     def __init__(self):
         super(MyCalendar, self).__init__()
         self.initUI()
+        
     def initUI(self):
         self.cal = QCalendarWidget(self)
         self.cal.setMinimumDate(QDate(1988,1,1))

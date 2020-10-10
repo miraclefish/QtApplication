@@ -20,7 +20,7 @@ class RightBottomButton(QWidget) :
         cancelButton = QPushButton("取消")
 
         hbox = QHBoxLayout()
-        hbox.addStretch(1)
+        hbox.addStretch(5)
         hbox.addWidget(okButton)
         hbox.addWidget(cancelButton)
 

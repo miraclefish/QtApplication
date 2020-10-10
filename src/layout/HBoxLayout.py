@@ -21,7 +21,7 @@ class HBoxLayout(QWidget) :
         hlayout.addWidget(QPushButton('按钮3'))
         hlayout.addWidget(QPushButton('按钮4'))
         hlayout.addWidget(QPushButton('按钮5'))
-        hlayout.setSpacing(40)
+        hlayout.setSpacing(20)
         self.setLayout(hlayout)
 
 
